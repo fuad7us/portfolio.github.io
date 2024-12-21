@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+
+.magnifier              {background:rgba(0,0,0, .75); position:absolute; text-align: center; width: 100%; height: 100%; top:0px; left:0px; bottom:0px; right:0px; opacity:0; -webkit-transition:all .3s ease-in-out; -moz-transition:all .3s ease-in-out; -ms-transition:all .3s ease-in-out; -o-transition:all .3s ease-in-out; transition:all .3s ease-in-out;}
+.boxed                  {position: absolute; top: 50%; left: 50%; margin-left: -25px; margin-top: -25px; color:#fff; border: 2px solid #fff; padding: 5px 15px; font-weight: 700; text-transform: uppercase;}
+a:hover .magnifier      {opacity:1;}
+.grid-item 				{margin-bottom: 5px;}
+.no-gutter  			{margin-right: 0; margin-left: 0; }
